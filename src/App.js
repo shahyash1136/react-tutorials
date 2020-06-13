@@ -3,12 +3,17 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welome';
 import Message from './components/Message';
+import Counter from './components/Counter';
+
+
+
 function App() {
     return (
         <div className="App">
 
-            <Message/>
+            <Counter />
 
+            {/* <Message/> */}
             {/* <Greet name='Bruce' heroName='Batman'/>
             <Greet name='Clark' heroName='Superman'/>
             <Greet name='Diana' heroName='Wonder Woman'/>
